@@ -238,7 +238,6 @@ p {
 .banner--header {
 	font-size: 4.75em;
 	margin-bottom: 0;
-	text-transform: uppercase;
 	letter-spacing: .002em;
 }
 
@@ -257,7 +256,6 @@ h6 {
 	font-weight: 300;
 	line-height: 1em;
 	margin: 0 0 1em 0;
-	text-transform: uppercase;
 }
 
 h1 a,
@@ -297,7 +295,6 @@ h3 {
 	font-size: 1.1em;
 	font-weight: 600;
 	letter-spacing: 1px;
-	text-transform: uppercase;
 }
 
 h4 {
@@ -306,7 +303,6 @@ h4 {
 	font-weight: 600;
 	letter-spacing: 1px;
 	line-height: 1.5em;
-	text-transform: uppercase;
 }
 
 h5 {
@@ -748,7 +744,7 @@ body.landing:after {
 	-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 	-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 	animation: overlay-hide 1.5s ease-in forwards !important;
-	background: #CEBFA3;
+	background: #c1c1c1;
 	content: '';
 	display: block;
 	height: 100%;
@@ -3632,7 +3628,7 @@ body.landing #header {
 /* Banner */
 
 #subpage-banner {
-	background-color: #FCF4E3;
+	background-color: #eee;
 }
 
 #subpage-banner:before {
@@ -3644,7 +3640,7 @@ body.landing #header {
 }
 
 #subpage-banner:after {
-	background-color: #FCF4E3;
+	background-color: #eee;
 	display: block;
 	height: 100%;
 	left: 0;
@@ -3666,7 +3662,7 @@ body.landing #header {
 
 #banner {
 	background-attachment: fixed;
-	background-color: #FCF4E3;
+	background-color: #eee;
 	/* background-image: url("../../images/banner.jpg"); */
 	background-position: center center;
 	background-size: cover;
@@ -3690,7 +3686,7 @@ body.landing #header {
 			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");; */
-	background-color: #FCF4E3;
+	background-color: #f8f8f8;
 	content: '';
 	display: block;
 	height: 100%;
@@ -3749,7 +3745,7 @@ body.is-touch #banner {
 /* Footer */
 
 #footer {
-	background: #FCF4E3;
+	background: #eee;
 	padding: 6em 0;
 	text-align: center;
 }
@@ -3905,7 +3901,7 @@ body.is-touch #banner {
 	}
 
 	.spotlight .content {
-		background-color: #EBDEC7;
+		background-color: #eee;
 		border-width: 0 !important;
 		border-top-width: 0.35em !important;
 		bottom: auto !important;
@@ -3993,10 +3989,10 @@ body.is-touch #banner {
 	}
 
 	/* Project */
-	div.project1 p {
+	/* div.project1 p {
 		font-size: 1.25em;
 		text-align: left;
-	}
+	} */
 
 	div.project1 h2 {
 		font-size: 3.25em;
@@ -4442,25 +4438,25 @@ body.is-touch #banner {
 /* Projects */
 
 .project1 {
-	background: #EBDEC7;
+	background: #eee;
 }
 
 .project2 {
-	background: #EBDEC7;
+	background: #eee;
 }
 
 .project3 {
-	background: #EBDEC7;
+	background: #eee;
 }
 
 section#four {
 	padding-top: 10em;
 	padding-bottom: 5em;
-	background-color: #FCF4E3;
+	background-color: #eee;
 }
 
 section#five {
-	background-color: #FCF4E3;
+	background-color: #eee;
 }
 
 a.button.primary.small {
